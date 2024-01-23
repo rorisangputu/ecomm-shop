@@ -1,0 +1,21 @@
+<%- include('../partials/header') %>
+<%- include ('../partials/nav') %>
+<%- include('../partials/category-options') %>
+<div class="all-container">
+    <div class="all-products">
+        <% for (let category of data.categories) { %>
+            <h2><%= category.name %></h2>
+            <div class="row">
+                <% for (let product of category.products) { %>
+                    <div class="product">
+                        <img src="<%= product.image %>" alt="<%= product.name %>">
+                        <h3><a href="/categories/<%= category.catName %>/<%= product.id %>"><%= product.name %></a></h3>
+                        <p>Price: R<%= product.price %></p>
+                        <!-- Add more product details as needed -->
+                    </div>
+                <% } %>
+            </div>
+        <% } %>
+    </div>
+</div>
+<%- include('../partials/footer') %>

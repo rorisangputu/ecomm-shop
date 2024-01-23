@@ -1,0 +1,135 @@
+<%- include('partials/header') %>
+<%- include ('partials/nav') %>
+
+<section>
+    <div class="hero-container">
+        <div class="hero-image-container">
+            <div class="hero-img-1">
+                <div class="transpent">
+                    <h1><a href="/categories/all">Live Comfortably</a></h1>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <div class="hero-img-2">
+                <div class="transpent">
+                    <h1><a href="/categories/Outdoor">Outdoor</a></h1>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-image-container stack">
+            <div class="stack-image-container">
+                <div class="stack-img-1">
+                    <div class="stack-transparent">
+                        <h1>Office</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="stack-image-container">
+                <div class="stack-img-2">
+                    <div class="stack-transparent">
+                        <h1>Electronics</h1>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section>
+    <div class="featured-container">
+        <div class="featured-text">
+            <h1>Best Selling Products:</h1>
+        </div>
+        <div class="featured-items">
+            <% for (const category of data.categories) { %>
+                <% for (const product of category.products) { %>
+                    <% if (product.featured && product.featured === "Yes") { %>
+                        <div class="featured">
+                            <img class="featured-img" src="<%= product.image %>" alt="<%= product.name %>">
+                            <div class="ft-text">
+                                <h2 class="featured-name"><a id="ft-a" href="/categories/<%= category.catName %>/<%= product.id %>">
+                                    <%= product.name %></a></h2>
+                                <h3 class="featured-price">R <%= product.price %></h3>
+                                <a id="ft-a" href="/categories/<%= category.catName %>/<%= product.id %>">Info</a>
+                            </div>
+                        </div>
+                    <% } %>
+                <% } %>
+            <% } %>
+        </div>
+    </div>
+</section>
+<section class="cto">
+    <div class="cto-1-container">
+        <div class="cto-block">
+            <div class="cto-text">
+                <h1>Creative harmonious living</h1>
+                <p>
+                    RATTAN Products are made to standard sizes so that you can mix and match them freely           
+                </p>
+               <a href="/categories/all"> <button>Shop Now</button></a>
+            </div>
+        </div>
+        <div class="cto-block">
+            <img  src="https://images.unsplash.com/photo-1617806265182-7b3f847f0b75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvbWUlMjBkZWNvcnxlbnwwfHwwfHx8MA%3D%3D" alt="">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="trending-carousel">
+        <h1>Trending Products:</h1>
+        <div class="owl-carousel owl-theme">
+            <% for (const category of data.categories) { %>
+                <% for (const product of category.products) { %>
+                    <% if (product.trending && product.trending === "Yes") { %>
+                        <div class="caro-item">
+                            <img src="<%= product.image %>" alt="<%= product.name %>">
+                            <h2><a href="/categories/<%= category.catName %>/<%= product.id %>"><%= product.name %></a></h2>
+                            
+                            <p>R <%= product.price %></p>
+                        </div>
+                    <% } %>
+                <% } %>
+            <% } %>
+        </div>
+    </div>
+</section>
+<section class="cto">
+    <div class="cto-2-container">
+        <div class="cto-block">
+            <img  src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMGRlY29yfGVufDB8fDB8fHww" alt="">
+        </div>
+        <div class="cto-block">
+            <div class="cto-text">
+                <h1>Comfortable & Elegant living</h1>
+                <p>
+                    RATTAN Products are made to standard sizes so that you can mix and match them freely           
+                </p>
+               <a href="/categories/all"> <button>Shop Now</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Initialize Owl Carousel -->
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            loop:true,
+            margin:10,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        });
+    });
+</script>
+<%- include('partials/footer') %>

@@ -1,0 +1,41 @@
+<%- include('../partials/header') %>
+<%- include ('../partials/nav') %>
+<%- include('../partials/category-options') %>
+<div class="prod-frame">
+    <div class="prod-container">
+        <div class="prod-visual">
+            <div class="main-img">
+                <img src="<%= Product.image %>" alt="">
+            </div>
+            <div class="small-img">
+                <img src="<%= Product.image %>" alt="">
+            </div>
+        </div>
+        <div class="prod-details">
+            <div class="details-text">
+                <div class="prod-text">
+                    <h1 class="prodName"> <%= Product.name %></h1>
+                </div>
+                
+                <p><%= Product.description %></p>
+            </div>
+            
+            <div class="price-counter">
+                <p>Quantity</p>
+                <div class="qty-count">
+                    <button class="countElement btnCount btnMinus">-</button>
+                    <p class="countElement counter">1</p>
+                    <button class="countElement btnCount btnPlus">+</button>
+                </div>
+                <p class="counterPrice"><%= Product.price %></p>
+            </div>
+            <div class="prod-btns">
+                <button class="addToCart">ADD TO CART</button>
+                <button class="buyNow">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<%- include('../partials/footer') %>

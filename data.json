@@ -1,0 +1,319 @@
+
+{
+    "categories":[
+        {
+            "id": 1,
+            "catName": "Bedroom",
+            "products":[
+                {
+                    "id": 101,
+                    "name": "Pacino Bedframe",
+                    "price": 1599,
+                    "description": "Introducing the Zaragot Pacino Bedframe – a fusion of modern elegance and timeless comfort. Priced at $1599, this bedframe redefines your bedroom with its sleek design and durable construction. Elevate your space with the Pacino Bedframe – where style meets tranquility.",
+                    "brand": "Zaragot",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/9a3cf69846600c16b764bbf24b086a9ed9462b81086d396c4eefef8f62b13182.jpg?v=1698915960",
+                    "image-2": "/images/bedframe-1w-b.jpg",
+                    "image-3": "/images/bedframe-1b.jpg",
+                    "image-4": "/images/bedframe-1b-b.jpg"
+                },
+                {
+                    "id": 102,
+                    "name": "Remi Single Bed",
+                    "price": 1299,
+                    "brand": "Bronshea",
+                    "description": "",
+                    "image": "https://cdn.shopify.com/s/files/1/0650/9497/5709/files/decofurn-furniture-remi-single-bed-952_540x.jpg?v=1694830957",
+                    "image2": "/images/singledbed-1w-b.jpg",
+                    "image3": "/images/singledbede-1br.jpg",
+                    "image4": "/images/singledbed-1br-b.jpg"
+                },
+                {
+                    "id": 103,
+                    "name": "Grande Double Bed",
+                    "price": 1899,
+                    "brand": "Zaragot",
+                    "description": "",
+                    "image": "https://cdn.shopify.com/s/files/1/0650/9497/5709/files/86f9c9b7c1714cbfd4bcbd25abbf0eca4e800f9305d16bf842772de279a53797_540x.jpg?v=1698915889",
+                    "image2": "/images/double-bed-b.jpg"
+                    
+                },
+                {
+                    "id": 104,
+                    "name": "Jude Stool",
+                    "price": 999,
+                    "brand": "Judeth Myers",
+                    "description": "",
+                    "image": "https://cdn.shopify.com/s/files/1/0650/9497/5709/files/decofurn-furniture-jude-stool-162_540x.jpg?v=1694832234",
+                    "image2": "/images/jude-stool2.jpg",
+                    "trending": "Yes"
+                },
+                {
+                    "id": 105,
+                    "name": "Timber Drawer",
+                    "price": 1799,
+                    "brand": "Tim Works",
+                    "description": "",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/0a7baefc692d024c37fc9c0756b2136b4bbd862d530e84aec5c289ad191d5f59.jpg?v=1696844499",
+                    "image2": "/images/br-drawer2.jpg",
+                    "trending": "Yes"
+                },
+                {
+                    "id": 106,
+                    "name": "NY Clothing Rack",
+                    "price": 1299,
+                    "brand": "Steel Works",
+                    "description": "Introducing the Steel Works NY Clothing Rack – a sleek and practical solution for organizing your wardrobe with style. Priced at $1299, this industrial-chic clothing rack seamlessly combines functionality and aesthetics. Crafted with precision by Steel Works, it's a statement piece that elevates any space. The NY Clothing Rack is not just a storage solution; it's a featured essential for those who appreciate a perfect blend of form and function. Explore the epitome of wardrobe organization with this standout piece.",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/45e69918854abc8e14056107d656560bf3e173c6ce14856f2bcd5aeaa79cf56e.jpg?v=1700482696",
+                    "image2": "/images/clothing-rail2.jpg",
+                    "featured": "Yes"
+                },
+                {
+                    "id": 107,
+                    "name": "Timber Wardrobe",
+                    "price": 1299,
+                    "brand": "Tim Works",
+                    "description": "",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/accf71655ac2f7bbf52ae72bd9e6cf7603e410d845f5cd5bfcc21706b378d87c.jpg?v=1700145093",
+                    "image-2": "images/cupboard-1b.jpg",
+                    "image-3": "/images/cupboard-2.jpg",
+                    "image-4": "/images/cupboard-2b.jpg"
+                },
+                {
+                    "id": 108,
+                    "name": "Fiddle Fig Plant",
+                    "price": 540,
+                    "brand": "Fiddle",
+                    "description": "",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-fiddle-fig-plant-in-pot-52cm-306.jpg?v=1694830046",
+                    "featured": "Yes"
+                },
+                {
+                    "id": 109,
+                    "name": "Rubber Plant in Pot",
+                    "price": 1299,
+                    "brand": "Birds of Paradise",
+                    "description": "",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-fiddle-fig-plant-in-pot-52cm-306.jpg?v=1694830046",
+                    "trending": "Yes"
+                },
+                {
+                    "id": 110,
+                    "name": "Pacino Bedframe",
+                    "price": 1299,
+                    "brand": "Zaragot",
+                    "description": "",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-kim-fabric-bed-492.jpg?v=1698920055"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "catName": "Living-Room",
+            "products":[
+                {
+                    "id": 201,
+                    "name": "Axel Leather chair",
+                    "price": 1299,
+                    "color": "Brown",
+                    "product-type": "Chair" ,
+                    "brand": "Axel Green",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-axel-leather-touch-chair-943.jpg?v=1705013530",
+                    "featured": "Yes"
+
+                },
+                {
+                    "id": 202,
+                    "name": "Cento TV Unit",
+                    "price": 1799,
+                    "color": "Oak and Black",
+                    "product-type": "TV Unit" ,
+                    "brand": "Cento",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/a9d9119a3f3a07b5e082e7a35f6fba488987858fcaa4528aa56250a83f550d4e.jpg?v=1695210252",
+                    "image-2": "/images/cento-tv-unit-b.jpg"
+                    
+
+                },
+                {
+                    "id": 203,
+                    "name": "Grey L Couch",
+                    "price": 6099,
+                    "color": "Grey",
+                    "product-type": "Couch" ,
+                    "brand": "Mazzatto",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-caterina-fabric-corner-chaise-111.jpg?v=1705657040",
+                    "image-2": "images/couch-1b.jpg"
+
+                },
+                {
+                    "id": 204,
+                    "name": "Rattan Light",
+                    "price": 699,
+                    "color": "Oak",
+                    "product-type": "Light" ,
+                    "brand": "Rattan",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-hanging-light-rattan-dome-pendant-269.jpg?v=1690850401",
+                    "trending": "Yes"
+                    
+
+                },
+                {
+                    "id": 205,
+                    "name": "Jomo Fabric Couch",
+                    "price": 4000,
+                    "color": "Grey",
+                    "product-type": "Couch" ,
+                    "brand": "Jomo",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-mateo-fabric-3-seater-682.jpg?v=1690845689"
+                },
+                {
+                    "id": 206,
+                    "name": "Lena Coffee Table",
+                    "price": 2050,
+                    "color": "Black",
+                    "product-type": "Coffee Table" ,
+                    "brand": "Lena Simon",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-dewi-100x60cm-coffee-table-930.jpg?v=1694817815",
+                    "image-2": "/images/Lena-Coffee-table-b.jpg",
+                    "trending": "Yes"
+                },
+                {
+                    "id": 207,
+                    "name": "Ora 2-Set Coffee Table",
+                    "price": 1599,
+                    "color": "Marble",
+                    "product-type": "Coffee Table" ,
+                    "brand": "Oracles",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-ora-set-of-2-stone-top-coffee-table-736.jpg?v=1701076933",
+                    "image-2": "/images/Ora-set-table-b.jpeg",
+                    "featured": "Yes"
+                },
+                {
+                    "id": 208,
+                    "name": "Pearl Fleece Chair",
+                    "price": 2000,
+                    "color": "White",
+                    "product-type": "Couch" ,
+                    "brand": "Myrod Fleece",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-pearl-fleece-fabric-chair-cream-253.jpg?v=1704797917",
+                    "featured": "Yes",
+                    "trending": "Yes"
+                },
+                {
+                    "id": 209,
+                    "name": "Rose Coffee Table",
+                    "price": 1300,
+                    "color": "Concrete",
+                    "product-type": "Coffee Table" ,
+                    "brand": "Steeld",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-rose-80cm-round-coffee-table-378.jpg?v=1694831466",
+                    "trending": "Yes"
+                },
+                {
+                    "id": 210,
+                    "name": "Rattan Table Lamp",
+                    "price": 480,
+                    "color": "Brown",
+                    "product-type": "Lamp" ,
+                    "brand": "Rattan",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-lamp-table-rattan-cage-cream-fabric-shade-251.jpg?v=1690850376",
+                    "trending": "Yes"
+                },
+                {
+                    "id": 211,
+                    "name": "Trento TV Unit",
+                    "price": 1900,
+                    "color": "Oak",
+                    "product-type": "TV Unit" ,
+                    "brand": "Trento",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/eb902a9d041350a06c0ad5f5c053c608e061e5c33afff0d02f324453a7fa1fa1.jpg?v=1696844547",
+                    "image-2": "/images/trento-tv-unit-b.jpeg",
+                    "trending": "Yes"
+                },
+                {
+                    "id": 212,
+                    "name": "Tripod Lamp",
+                    "price": 1250,
+                    "color": "White",
+                    "product-type": "Lamp" ,
+                    "brand": "Trento",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-lamp-floor-brown-metal-tripod-white-shade-153cm-352.jpg?v=1702022933",
+                    "trending": "Yes"
+                }
+
+            ]
+        },
+        {
+            "id": 3,
+            "catName": "Outdoor",
+            "products":[
+                {
+                    "id": 301,
+                    "name": "Borneo Outdoor Couch",
+                    "price": 2450,
+                    "color": "Grey",
+                    "product-type": "Outdoor couch" ,
+                    "brand": "Borneo",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-borneo-outdoor-corner-unit-364.jpg?v=1696090125",
+                    "image-2": "/images/borneo-outdoor-couch-b.jpeg"
+                }
+
+            ]
+        },
+        {
+            "id": 4,
+            "catName": "Office",
+            "products":[
+                {
+                    "id": 401,
+                    "name": "Delta Bookshelf",
+                    "price": 1550,
+                    "color": "Brown",
+                    "product-type": "Shelf" ,
+                    "brand": "Delta Works",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-monza-2-drawer-multi-shelf-unit-789.jpg?v=1694816813"
+                },
+                {
+                    "id": 402,
+                    "name": "Highback Office Chair",
+                    "price": 1250,
+                    "color": "Black",
+                    "product-type": "Chair" ,
+                    "brand": "Office Tech",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-highback-deluxe-office-chair-ah571a-with-headrest-967.jpg?v=1690845513"
+                },
+                {
+                    "id": 403,
+                    "name": "Oak side-desk",
+                    "price": 1850,
+                    "color": "Oak",
+                    "product-type": "Desk" ,
+                    "brand": "Delta Works",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-luca-120cm-desk-828.jpg?v=1694829774",
+                    "trending": "Yes"
+                    
+                },
+                {
+                    "id": 404,
+                    "name": "Sigma Shelf",
+                    "price": 1200,
+                    "color": "Brown",
+                    "product-type": "Shelf" ,
+                    "brand": "Delta Works",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/5a132f678bfb5e7d89cecc0900411a12de3da0935e4be218c1cc55d3f55458e4.jpg?v=1700565679",
+                    "trending": "Yes"
+                },
+                {
+                    "id": 405,
+                    "name": "Walnut Deluxe Desk",
+                    "price": 2450,
+                    "color": "Brown",
+                    "product-type": "Desk" ,
+                    "brand": "Delta Works",
+                    "image": "https://decofurnsa.co.za/cdn/shop/files/decofurn-furniture-120-deluxe-3-drawer-desk-257.jpg?v=1694820833",
+                    "trending": "Yes"
+                }
+
+            ]
+        }
+    ]
+}
